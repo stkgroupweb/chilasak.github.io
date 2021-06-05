@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Movie</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/lightslider.css">
+
+    <script src="js/JQuery3.3.1.js"></script>
+     <script src="js/lightslider.js"></script>
+     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+
+</head>
+<body>
+    <!-- --------------Header and menu------------------- -->
+    <div class="header">
+       <div class="container_header">
+                <a href="#" class="logo">
+                    <img src="images/logo.png"/>
+                </a>
+                <!--menu--btn----------------->
+                <label class="menu-icon" for="menu-btn">
+                    <span class="nav-icon"></span>
+                </label>
+                <!--menu-------------->
+                <div class="menu">
+                    <ul >
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="action.html">Action</a></li>
+                        <li><a href="cartoon.html">Cartoon</a></li>
+                        <li><a href="romancetics.html">romancetics</a></li>
+                        <li><a href="Horror.html">Horror</a></li>
+                        <li><a href="Series korea.html">Series korea</a></li>
+                    </ul>
+                </div>
+                <!--search------------->
+                <div class="search">
+                    <input type="text" placeholder="Find Your Favourtie Movies"/>
+                    <!--search-icon----------->
+                    <i class="fas fa-search"></i>
+                  
+                </div>
+       </div>
+    </div>
+    <!-- --------------------------main content ------------------------------------->
+    <div class="container">
+ <!-- -----------------------slide show -------------------->
+                    
+                        <div class="slide">
+                            <img id="image">
+                        </div>
+
+                    
+<!-- -------slowcase ---------->
+        <div class="container-case">
+            
+            <section id="latest">
+                <h2 class="latest-heading">New Movies</h2>
+                <!--slider------------------->
+                <ul id="autoWidth" class="cs-hidden">
+                    <!--slide-box-1------------------>
+                    <li class="item-a">
+                        <div class="latest-box">
+                            <!--img-------->
+                            <div class="latest-b-img">
+                                <img src="images/m-1.jpg">
+                                
+                            </div>
+                            <!--text---------->
+                            <div class="latest-b-text">
+                                <strong>Kin 2018</strong>
+                                <button><a href="#">Watch Now</a> </button>
+                            </div>
+                        </div>
+                    </li>
+            <!--slide-box-2------------------>
+            <li class="item-b">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="images/m-2.jpg">
+                        
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>PENINULA</strong>
+                        <button><a href="#">Watch Now</a> </button>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-3------------------>
+            <li class="item-c">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="images/m-3.jpg">
+                           
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>INCEPTION</strong>
+                        <button><a href="#">Watch Now</a> </button>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-4------------------>
+            <li class="item-d">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="images/m-4.jpg">
+                        
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>IRON MAN 3</strong>
+                        <button><a href="#">Watch Now</a> </button>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-5------------------>
+            <li class="item-e">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="images/m-5.jpg">
+                        
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>VENOM</strong>
+                        <button><a href="#">Watch Now</a> </button>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-6------------------>
+            <li class="item-f">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="images/m-6.jpg">
+                        
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>AQUAMAN</strong>
+                        <button><a href="#">Watch Now</a> </button>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-7------------------>
+            <li class="item-g">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="images/m-7.jpeg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>JUNGLE CRUISE</strong>
+                        <button><a href="#">Watch Now</a> </button>
+                    </div>
+                </div>
+            </li>
+                  </ul>
+            </section>
+            
+        </div>
+
+
+
+      <!-- List movies -->
+
+
+
+        <div class="container-list">
+            <h2 class="text-h2">Top Movies</h2>
+            <div class="list-movie">
+                <div class="movies-box">
+                    <!--img------------>
+                    <div class="movies-img">
+                        <img src="images/l-3.jpg">
+                    </div>
+                    <!--text--------->
+                         <strong>LES CRAODS</strong>
+                        <button><a href="#">Watch Now</a> </button>
+                </div>
+                <div class="movies-box">
+                    <!--img------------>
+                    <div class="movies-img">
+                        <img src="images/l-4.jpg">
+                    </div>
+                    <!--text--------->
+                         <strong>TOY STORY 3</strong>
+                        <button><a href="#">Watch Now</a> </button>
+                </div>
+                <div class="movies-box">
+                    <!--img------------>
+                    <div class="movies-img">
+                        <img src="images/l-5.jpg">
+                    </div>
+                    <!--text--------->
+                         <strong>COCO</strong>
+                        <button><a href="#">Watch Now</a> </button>
+                </div>
+                <div class="movies-box">
+                    <!--img------------>
+                    <div class="movies-img">
+                        <img src="images/l-1.jpg">
+                    </div>
+                    <!--text--------->
+                         <strong>INTO DARKNESS</strong>
+                        <button><a href="#">Watch Now</a> </button>
+                </div>
+                <div class="movies-box">
+                    <!--img------------>
+                    <div class="movies-img">
+                        <img src="images/l-2.jpg">
+                    </div>
+                    <!--text--------->
+                         <strong>FANTASIC BEASTS</strong>
+                        <button><a href="#">Watch Now</a> </button>
+                </div>
+                <div class="movies-box">
+                    <!--img------------>
+                    <div class="movies-img">
+                        <img src="images/l-6.jpg">
+                    </div>
+                    <!--text--------->
+                         <strong>STAR WARS</strong>
+                        <button><a href="#">Watch Now</a> </button>
+                </div>
+                <div class="movies-box">
+                    <!--img------------>
+                    <div class="movies-img">
+                        <img src="images/l-7.jpg">
+                    </div>
+                    <!--text--------->
+                         <strong>ROQUE ONE</strong>
+                        <button><a href="#">Watch Now</a> </button>
+                </div>
+                <div class="movies-box">
+                    <!--img------------>
+                    <div class="movies-img">
+                        <img src="images/l-8.jpg">
+                    </div>
+                    <!--text--------->
+                         <strong>VENOM</strong>
+                        <button><a href="#">Watch Now</a> </button>
+                </div>
+                <div class="movies-box">
+                    <!--img------------>
+                    <div class="movies-img">
+                        <img src="images/m-3.jpg">
+                    </div>
+                    <!--text--------->
+                         <strong>INCEPTION</strong>
+                        <button><a href="#">Watch Now</a> </button>
+                </div>
+                <div class="movies-box">
+                    <!--img------------>
+                    <div class="movies-img">
+                        <img src="images/m-7.jpeg">
+                    </div>
+                    <!--text--------->
+                         <strong>JUNGLE CRUISE</strong>
+                        <button><a href="#">Watch Now</a> </button>
+                </div>
+                
+                
+            </div>
+        </div>
+
+        </div>
+
+
+        <!-- footer  -->
+       <div class="footer">
+           <div class="container-footer">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">SOUND TACK</a></li>
+                        <li><a href="#">DVD</a></li>
+                        <li><a href="#">VIDEO</a></li>
+                        <li><a href="#">CENIMA</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+           </div>
+       </div>
+            
+            
+
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
